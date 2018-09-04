@@ -1,0 +1,24 @@
+﻿<Window x:Class="Interfaz_de_usuario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interfaz_de_usuario"
+        mc:Ignorable="d"
+        Title="Mi primera ventana" Height="259.5" Width="526.5">
+	<!-- Esto es un contenedor ;-p-->
+	<StackPanel>
+		<!--Texto Plano-->
+		<!-- con los margenes le mueves asi para que no quede pegado
+		orden de margenes:
+		Left,Top,Right,Down
+		ahora lo sabes chamo
+		-->
+		<TextBlock TextAlignment="Center"  Margin="10,15,20,0">Correo:</TextBlock>
+		<!-- Caja para introducir texto-->
+		<TextBox></TextBox>
+		<TextBlock TextAlignment="Center" Margin="10,15,20,0">Contrasena:</TextBlock>
+		<TextBox></TextBox>
+		<Button  Margin="200,15,200,0">Iniciar sesion</Button>
+	</StackPanel>
+</Window>
